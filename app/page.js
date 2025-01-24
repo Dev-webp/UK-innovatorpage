@@ -64,14 +64,16 @@ const ContactPage = () => {
             animate="visible"
           >
             <motion.h1
-              className="font-semibold uppercase leading-tight text-teal-950 text-4xl sm:text-5xl lg:text-[3.50rem] -mt-10"
-              style={{ fontFamily: "Times New Roman, serif" }} // Apply Times New Roman
-              variants={titleVariants}
-            >
-              <span className="text-transparent bg-clip-text bg-gradient-to-tr from-white to-blue-300 mt-6">
-                Migrate to UK With Inovator Visa
-              </span>
-            </motion.h1>
+  className="font-semibold uppercase leading-tight text-teal-950 text-3xl sm:text-4xl md:text-5xl lg:text-[3.50rem] mt-12 sm:mt-12"
+  style={{ fontFamily: "Times New Roman, serif" }} // Apply Times New Roman
+  variants={titleVariants}
+>
+  <span className="text-transparent bg-clip-text bg-gradient-to-tr from-white to-blue-300">
+    Migrate to UK With Innovator Visa
+  </span>
+</motion.h1>
+
+
             <motion.p
               className="flex text-white tracking-tight text-left md:font-medium max-w-xl lg:max-w-lg mt-6"
               style={{
